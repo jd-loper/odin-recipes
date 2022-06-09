@@ -5,6 +5,13 @@
     text-align: center;
 }
 
+body {
+    border: 5px solid gray;
+    padding: 16px;
+    width: fit-content;
+    margin: 5px auto;
+}
+
 h1,
 h2 {
     letter-spacing: 5px;
