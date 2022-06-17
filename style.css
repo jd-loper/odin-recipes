@@ -10,6 +10,8 @@ body {
     flex-direction: column;
 }
 
+/* Main */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -57,4 +59,36 @@ a:hover {
 .footer-link:hover {
     color: white;
     letter-spacing: 2px;
+}
+
+/* Lasagna */
+
+.instructions {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.lasagna-header {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.ingredients {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.directions {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
